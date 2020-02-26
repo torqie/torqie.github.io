@@ -7,6 +7,10 @@ input, textarea, label {
     width: 905px;
     display: block;
 }
+label {
+    margin-bottom:4px;
+    font-size:14px;
+}
 
 input, textarea {
     border: 1px solid #c3c3c3;
@@ -14,12 +18,14 @@ input, textarea {
 }
 
 button {
-    font-size: 15px;
+    font-size: 14px;
     color: #ffffff;
     background-color: #4aaaa5;
     padding:7px 20px;
     border: none;
-    transition: 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 button:hover {
