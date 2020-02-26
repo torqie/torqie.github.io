@@ -1,0 +1,29 @@
+/** START -- CONTACT PAGE **/
+#contact .form-control {
+    margin-bottom: 10px;
+}
+
+input, textarea, label {
+    width: 905px;
+    display: block;
+}
+
+input, textarea {
+    border: 1px solid #c3c3c3;
+    padding: 5px;
+}
+
+button {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding:7px 20px;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #205E5B;
+    cursor: pointer;
+}
+/** END-- CONTACT PAGE **/
