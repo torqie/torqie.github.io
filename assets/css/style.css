@@ -2,15 +2,15 @@ body{
     margin:0;
     padding:0;
     color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', 'sans-serif';
+    font-family: 'Roboto';
     font-size: 14px;
     background: url("../images/dust_scratches.png") repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5;
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
-    font-weight: 600;
+    font-family: 'Oswald';
+    font-weight: 200;
 }
 h1 {
     font-size:30px;
