@@ -3,60 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeffery Hone - About Me</title>
-    
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/about.css">
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Oswald:300|Roboto&display=swap" rel="stylesheet">
+    <!--  Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Roboto:300&display=swap" rel="stylesheet">
+
+    <!--  Bootstrap Style Sheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--  Main Style  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--  Page Level Styles  -->
+    <link rel="stylesheet" href="assets/css/pages/about.css">
+
+    <title>Jeffery Hones Portfolio</title>
 </head>
 <body>
-    <header class="clearfix">
-        <div class="container">
-            <h1>Jeffery Hone</h1>
-            <nav>
-                <ul>
-                    <li><a class="active" href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
+<header>
     <div class="container">
-        <section class="clearfix" id="main-content">
-            <h2>About Me</h2>
-            <hr />
-            <div id="about">
-                <img src="assets/images/terik.jpg" alt="Picture of Jeffery Hone" />
-                <p>
-                    I have worked in the oil field for the past 14 years, coding whenever I had the chance.
-                    I have self taught with tutorials and screencasts a varity of languages including HTML, CSS,
-                    PHP (Laravel), JS, Jquery and VueJS.
-                </p>
-                <p>
-                    My dream job is to either work remotely with a company or become a freelance developer. I have worked
-                    close to 100 hours a week for the past 14 years; I am ready to spend some time with my family while still
-                    doing what I love... Coding!
-                </p>
-                <p>
-                    I have always had a passion for web development since I worked at intel shortly after highschool.
-                    Before begining to teach myself coding, I was very active and designing websites with photoshop for other
-                    people. Now I enjoy taking the "pretty picture" and making it work in website form.
-                </p>
-                <p>
-                    In my free time I love being out on the water boating enjoying all that the lake has to offer.
-                </p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+            <span class="navbar-brand mb-0 h1">Jeffery Hone</span>
 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
             </div>
-        </section>
+        </nav>
+    </div>
+</header>
+
+
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="box">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>About Me</h2>
+                            <hr/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <img class="img-thumbnail img-fluid about"
+                                 src="assets/images/terik.jpg"
+                                 alt="Photo of Terik Hone">
+                        </div>
+
+                        <div class="col-12 col-md-9">
+                            <p>I have worked in the oil field for the past 14 years, coding whenever I had the chance.
+                                I have self taught with tutorials and screencasts a variety of languages including HTML,
+                                CSS, PHP (Laravel), JS, Jquery and VueJS.
+                            </p>
+                            <p>
+                                My dream job is to either work remotely with a company or become a freelance developer.
+                                I have worked close to 100 hours a week for the past 14 years; I am ready to spend some
+                                time with my family while still doing what I love... Coding!
+                            </p>
+                            <p>
+                                I have always had a passion for web development since I worked at intel shortly after
+                                high school. Before beginning to teach myself coding, I was very active and designing
+                                websites with photoshop for other people. Now I enjoy taking the "pretty picture"
+                                and making it work in website form.
+                            </p>
+                            <p>
+                                In my free time I love being out on the water boating enjoying all that the lake has to
+                                offer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer>
-        <p>Copyright &copy;</p>
-    </footer>
+
+</section>
+
+<footer class="fixed-bottom">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-xs-12 ">
+                Copyright &copy;
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--  JS files For bootstrap  -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 </html>

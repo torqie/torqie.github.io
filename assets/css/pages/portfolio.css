@@ -1,0 +1,24 @@
+.portfolio-item{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
+
+}
+
+.portfolio-item img {
+
+}
+
+.portfolio-item .desc {
+    background-color: #4aaaa5;
+    padding:10px 0;
+    color: #ffffff;
+    position: absolute;
+    overflow: hidden;
+    bottom:8px;
+    width:100%;
+}

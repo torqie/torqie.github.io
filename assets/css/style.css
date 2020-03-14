@@ -1,155 +1,42 @@
+@import "header.css";
+
+@import "footer.css";
+
 body{
-    margin:0;
-    padding:0;
-    color: #777777;
-    font-family: 'Roboto';
-    font-size: 14px;
+    font-family: Roboto, sans-serif;
     background: url("../images/dust_scratches.png") repeat;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #4aaaa5;
-    font-family: 'Oswald';
-    font-weight: 200;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    color:#4aaaa5;
 }
-h1 {
-    font-size:30px;
-}
-
-h2 {
-    font-size: 24px;
+.h1{
+    font-size:32px;
 }
 
-textarea {
-    resize: vertical;
+
+
+#content {
+    padding:25px 0 75px 0;
 }
 
-.no-color{
-    color: #777777;
-}
-
-.center{
-    text-align: center;
-}
-
-a, a:visited{
-    position: relative;
-    color: #777777;
-    text-decoration: none;
-}
-
-a:hover, a.active{
-    color: #4aaaa5;
-}
-
-.container{
-    width: 960px;
-    margin: 0 auto;
-}
-
-.clearfix::after {
-    content: "";
-    clear:both;
-    display: block;
-}
-
-hr {
-    border: 1px solid #cccccc;
-    margin: 0 0 20px 0;
-}
-
-/** START -- HEADER **/
-header {
-    margin-top:0;
-    background-color:#ffffff;
-    border-bottom: 2px solid #cccccc;
-    width:100%;
-    position: relative;
-}
-
-header h1 {
-    margin:0;
-    padding:20px;
-    background-color: #4aaaa5;
-    color:#ffffff;
-    float: left;
-}
-
-header nav {
-    float:right;
-    margin-top:25px;
-}
-
-header nav ul li{
-    position: relative;
-    display: inline-block;
-    padding:0 10px;
-    border-right: 1px solid #777777;
-}
-header nav ul li:last-child {
-    border: none;
-    padding-right: 0;
-}
-
-header a:before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -2px;
-    left: 0;
-    background-color: #4aaaa5;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
-}
-
-header a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-/** END -- HEADER **/
-
-/** START -- MAIN CONTENT **/
-#main-content{
+.box {
+    padding: 20px;
     background-color: #ffffff;
-    border: 1px solid #dddddd;
-    width:918px;
-    margin-top: 20px;
-    padding:20px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
+
 }
 
-#main-content h2{
-    margin: 0 0 20px 0;
-}
-/** END -- MAIN CONTENT **/
 
-
-
-/** START -- FOOTER **/
-footer {
-    background-color: #666666;
-    height: 50px;
-    position: fixed;
-    left:0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    border-top: 8px solid #4aaaa5;
-}
-
-footer p {
-    position: absolute;
-    bottom:5px;
-    left:0;
-    right: 0;
-    color: #a5a5a5;
-    font-size: 11px;
-}
-/** END -- FOOTER **/
 
 
 
