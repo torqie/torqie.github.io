@@ -7,11 +7,16 @@
     -moz-box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
     box-shadow: 0px 0px 5px 0px rgba(119,119,119,0.5);
     transition: filter .7s;
+    filter: grayscale(60%);
 
 
 }
  .portfolio-item:hover {
-    filter: grayscale(100%);
+     filter: grayscale(0%);
+     -webkit-box-shadow: 0px 0px 5px 0px rgba(170,75,60, 0.7);
+     -moz-box-shadow: 0px 0px 5px 0px rgba(170,75,60, 0.7);
+     box-shadow: 0px 0px 5px 0px rgba(170,75,60, 0.7);
+
  }
 
 .portfolio-item img {
