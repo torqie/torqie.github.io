@@ -18,7 +18,7 @@ nav.navbar-light .navbar-nav {
 }
 
 .navbar-light .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: #aa4b3c;
     padding: 10px 20px;
     color: #ffffff;
 }
@@ -38,7 +38,7 @@ nav.navbar-light .navbar-nav {
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-    color: #4aaaa5; !important
+    color: #aa4b3c; !important
 }
 
 .navbar-light .navbar-collapse .nav-item .nav-link{
