@@ -22,6 +22,9 @@ nav.navbar-light .navbar-nav {
     padding: 10px 20px;
     color: #ffffff;
 }
+.navbar-light .navbar-brand:hover {
+    color: #ffffff;
+}
 
 .navbar-light .nav-item .nav-link,
 .navbar-light .navbar-toggler {
