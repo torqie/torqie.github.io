@@ -47,6 +47,14 @@ const works = [
     github: "https://github.com/ASuicidalCow/Pat-Knows-Best"
   },
 
+  {
+    title: "Liri Bot",
+    image: "assets/images/works/liri-bot.gif",
+    description: "LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.",
+    link: "https://github.com/torqie/liri-node-app",
+    github: "https://github.com/torqie/liri-node-app"
+  },
+
 ];
 
 
