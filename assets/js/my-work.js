@@ -55,6 +55,14 @@ const works = [
     github: "https://github.com/torqie/liri-node-app"
   },
 
+  {
+    title: "Constructor Word Game",
+    image: "assets/images/works/word-game.gif",
+    description: "This is a Command Line Interface (CLI) word guess game.",
+    link: "https://github.com/torqie/constructor-word-guess",
+    github: "https://github.com/torqie/constructor-word-guess"
+  },
+
 ];
 
 
