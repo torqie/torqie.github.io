@@ -63,6 +63,14 @@ const works = [
     github: "https://github.com/torqie/constructor-word-guess"
   },
 
+  {
+    title: "Bamazon Store Front",
+    image: "assets/images/works/bamazon.gif",
+    description: "This is a Command Line Interface (CLI) word guess game.",
+    link: "https://github.com/torqie/bamazon",
+    github: "https://github.com/torqie/bamazon"
+  },
+
 ];
 
 
