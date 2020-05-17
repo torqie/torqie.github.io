@@ -66,7 +66,7 @@ const works = [
   {
     title: "Bamazon Store Front",
     image: "assets/images/works/bamazon.gif",
-    description: "This is a Command Line Interface (CLI) word guess game.",
+    description: "Complete storefront with Customer, Manager, and Supervisor files.",
     link: "https://github.com/torqie/bamazon",
     github: "https://github.com/torqie/bamazon"
   },
