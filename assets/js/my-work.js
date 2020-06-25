@@ -71,6 +71,15 @@ const works = [
     github: "https://github.com/torqie/bamazon"
   },
 
+  {
+    title: "gitSum(education)",
+    image: "assets/images/works/gitsum-education.png",
+    description: "gitSum(education) was an idea that was created within our group with the purpose of helping anyone " +
+        "who is looking to further their own education in coding and other computer technologies. ",
+    link: "https://uofu-project-2.herokuapp.com/",
+    github: "https://github.com/torqie/Project-2"
+  },
+
 ];
 
 
